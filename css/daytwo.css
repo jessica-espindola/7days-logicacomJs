@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&family=Roboto+Mono&display=swap');
+
+:root {
+    --fonte-principal: 'Montserrat';
+    --background: black;
+    --background-header: linear-gradient (aliceblue, black);
+}
+
+.container__principal {
+    width: 640px;
+    margin: 0 auto;
+    font-family: var(--fonte-principal);
+}
+.container__principal-titulo {
+    text-align: center;
+}
+.container__principal-texto {
+    text-align: justify;
+}
+.strong-variaveis {
+    color: rgb(238, 235, 27);
+}
+
+.container__formulario {
+    width: 640px;
+    margin: 0 auto;
+    border: 2px solid var(--background);
+    border-radius: 16px;
+    background-color: aliceblue;
+}
+.container_formulario__conteudo {
+    margin: 20px 40px;
+}
+.container__formulario__conteudo__item {
+    display: flex;
+    flex-direction: column;
+    
+}
+.container__formulario__conteudo__item-label {
+    font-family: var(--fonte-principal);
+    color: var(--background);
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.container__formulario__conteudo__item-input {
+    color: var(--background);
+    padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid var(--background);
+}
+
+.container__formulario__conteudo__item-input {
+    font-family: var(--fonte-principal);
+}
+
+.botao-enviar {
+    padding: 10px 30px;
+    background: var(--background);
+    color: #FFFFFF;
+    font-family: var(--fonte-principal);
+    border-radius: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.container__formulario__botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container__resposta-nome, .container__resposta-idade-linguagem {
+    color: var(--background);
+    font-family: var(--fonte-principal);
+    
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&family=Roboto+Mono&display=swap');
+@import url(dayone.css);
+@import url(daytwo.css);
+
+:root {
+    --fonte-principal: 'Montserrat';
+    --background: black;
+    --background-header: linear-gradient (aliceblue, black);
+}
+header {
+    background-color: aliceblue;
+}
+body {
+    background: var(--background);
+    background-repeat: no-repeat;
+    color:aliceblue;
+}
+
+/*------------------- HEADER */
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 640px;
+    margin: 20px auto;
+    gap: 8px;
+    justify-content: center;
+
+}
+.cabecalho-titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+}
+.cabecalho-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    padding: 10px 0px;
+    
+}
+/*------------------- MAIN */
+
+.descricao__pagina {
+    font-family: var(--fonte-principal);
+    width: 640px;
+    margin: 0 auto;
+}
+
+.descricao__pagina-titulo {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.descricao__pagina-texto {
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.descricao__pagina__links {
+    width: 640px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.descricao__pagina__links a {
+    padding: 10px;
+    border: 2px solid aliceblue;
+    color:aliceblue;
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.descricao__pagina__links a:hover {
+    border: 2px solid rgb(238, 235, 27);
+    color:rgb(238, 235, 27);
+}
+/*------------------- FOOTER */
+footer {
+    width: 640px;
+    margin: 0 auto;
+}
+.footer-texto {
+    font-family: var(--fonte-principal);
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.footer__links__linkedin-img, .footer__links__github-img {
+    width: 21px;
+}
