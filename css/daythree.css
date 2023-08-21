@@ -1,0 +1,21 @@
+.cor-amarela {
+    color: rgb(238, 235, 27);
+}
+.container__botao {
+    width: 640px;
+    margin: 0 auto;
+    border: 2px solid var(--background);
+    border-radius: 16px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.container__formulario-btn {
+    padding: 10px 30px;
+    background: var(--background);
+    color: #FFFFFF;
+    font-family: var(--fonte-principal);
+    border-radius: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+}
