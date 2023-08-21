@@ -64,6 +64,11 @@
     cursor: pointer;
 }
 
+.container__verifica-resposta__conteudo-texto, {
+    font-family: var(--fonte-principal);
+    color: var(--background);
+    text-align: justify;
+}
 .container__formulario__botao {
     display: flex;
     flex-direction: row;

@@ -1,0 +1,46 @@
+.container__verifica-resposta {
+    width: 640px;
+    margin: 0 auto;
+    border: 2px solid var(--background);
+    border-radius: 16px;
+    background-color: aliceblue;
+}
+
+.container__verifica-resposta__conteudo, .container__verifica-resposta-github {
+    margin: 20px 40px;
+}
+
+.container__verifica-resposta__conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.botao-verificarEComparar, .container__verifica-resposta-github-link {
+    padding: 10px 30px;
+    background: var(--background);
+    color: #FFFFFF;
+    font-family: var(--fonte-principal);
+    border-radius: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+.container__verifica-resposta-github-link {
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+}
+.container__verifica-resposta-github {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid black;
+    
+}
+
+.container__verifica-reposta-github-texto, .container__verifica-resposta__conteudo-textoUm, .container__verifica-resposta__conteudo-textoDois, .container__verifica-resposta__conteudo-textoTres {
+    font-family: var(--fonte-principal);
+    color: var(--background);
+    text-align: justify;
+}
+
