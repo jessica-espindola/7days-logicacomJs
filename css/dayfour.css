@@ -1,0 +1,53 @@
+.container__jogo {
+    width: 640px;
+    margin: 0 auto;
+    border: 2px solid var(--background);
+    border-radius: 16px;
+    background-color: aliceblue;
+    justify-content: center;
+    display: flex;
+}
+
+.container__jogo__conteudo {
+    font-family: var(--fonte-principal);
+    color: var(--background);
+    padding: 20px 40px;
+
+}
+.container__jogo__conteudo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__jogo__conteudo-label {
+    font-weight: 700;
+    padding-bottom: 8px;
+
+}
+
+.container__jogo__conteudo-input {
+    color: var(--background);
+
+}
+
+.container__jogo__conteudo_botao {
+    padding: 10px 30px;
+    background: var(--background);
+    color: #FFFFFF;
+    font-family: var(--fonte-principal);
+    border-radius: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.container__jogo__conteudo__resultado {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__jogo__conteudo__resultado-numero {
+    font-weight: 700;
+}
