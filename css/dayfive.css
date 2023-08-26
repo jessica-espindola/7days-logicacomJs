@@ -1,0 +1,75 @@
+.container__lista {
+    width: 640px;
+    margin: 0 auto;
+    border: 2px solid var(--background);
+    border-radius: 16px;
+    background-color: aliceblue;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 15px;
+    color: black;
+}
+
+.container__lista-botaoComeçar {
+    width: 250px;
+    padding: 10px 30px;
+    background: var(--background);
+    color: #FFFFFF;
+    font-family: var(--fonte-principal);
+    border-radius: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border: none;
+    margin: 30px auto;
+    
+}
+
+.container__lista-p, .container__lista-label {
+    color: black;
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    padding-left: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container__lista-btnVoltar, .container__lista-btnAdd, .container__lista-btnSalvar, .container__lista-btnSim, .container__lista-btnNao {
+    width: 150px;
+    background: black;
+    color: white;
+    font-family: var(--fonte-principal);
+    border-radius: 10px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.container__lista-btnSalvar {
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 5px 0px;
+}
+
+.container__lista-btnSim, .container__lista-btnNao {
+    margin: 0 auto;
+}
+.input-nome {
+    margin: 10px 0px 10px 30px;
+    cursor: text;
+    width: 300px;
+    font-family: var(--fonte-principal);
+    color: black;
+    font-size: 12px;
+    
+}
+
+#categoria {
+    margin: 10px 0px 10px 30px;
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+}
+
+.categoria-bold {
+    font-weight: 700;
+    
+}
