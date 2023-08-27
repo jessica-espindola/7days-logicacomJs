@@ -30,9 +30,9 @@
     color: black;
     font-family: var(--fonte-principal);
     font-size: 14px;
-    padding-left: 30px;
+    padding: 10px 30px 0px 30px;
     text-align: center;
-    padding-top: 10px;
+    
 }
 
 .container__lista-btnVoltar, .container__lista-btnAdd, .container__lista-btnSalvar, .container__lista-btnSim, .container__lista-btnNao {
