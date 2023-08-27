@@ -18,6 +18,6 @@ function enviarResposta () {
         respostaNome.innerHTML = 'Olá, ' + valueNome + '!';
         respostaIdadeLinguagem.innerHTML = 'Você tem ' + valueIdade + ' anos e está aprendendo ' + valueLinguagem + '.';
     } else {
-        alert('Por favor, preencha os todos os campos');
+        alert('Por favor, preencha todos os campos');
     }
 }
