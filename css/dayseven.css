@@ -1,0 +1,80 @@
+.container__calculadora {
+    background: aliceblue;
+    width: 640px;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.container__calculadora__operacao {
+    display: flex;;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.container__calculadora__operacao__btn {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container__calculadora__exibicao {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.container__calculadora__exibicao__input {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.btnIniciar {
+    margin: 10px auto;
+    padding: 10px 5px;
+    background: black;
+    color: white;
+    border-radius: 16px;
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+
+}
+.container__calculadora-p {
+    color: black;
+    font-family: var(--fonte-principal);
+    padding-left: 30px;
+}
+
+.btnSoma, .btnSubtracao, .btnMultiplicacao, .btnDivisao, .btnSair, .btnFazerSoma {
+    width: 150px;
+    margin-left: 30px;
+    padding: 10px 5px;
+    background: black;
+    color: white;
+    border-radius: 16px;
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+}
+.container__calculadora__exibicao-p, .container__calculadora__exibicao__input-p {
+    color: black;
+    font-family: var(--fonte-principal);
+}
+.container__calculadora__exibicao-p {
+    text-align: center;
+    font-size: 14px;
+}
+.input-primeiroNumero, .input-segundoNumero {
+    width: 100px;
+}
+.container__calculadora__exibicao__resposta-p {
+    font-size: 12px;
+    color: black;
+    font-family: var(--fonte-principal);
+}
